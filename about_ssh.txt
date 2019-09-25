@@ -2,3 +2,8 @@
     1）在git bash 命令行中使用ssh-keygen命令或者ssh-keygen -t rsa -C "emailname@xx.com"命令生成本机的密钥
     2）如果上面的方法报错，可以改一个方式，在git bash gui中生成密钥
     3）生成的密钥保存在家目录的.ssh文件夹下
+
+2、在github账户中添加公钥
+    1）网页右上角头像处下拉菜单中点击Settings
+    2）左侧菜单中选择SSH and GPG keys
+    3）复制本机生成的公钥内容，粘贴到账户，保存

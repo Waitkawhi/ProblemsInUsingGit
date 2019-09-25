@@ -1,18 +1,18 @@
-1¡¢Éú³Éssh¹«Ë½Ô¿
-    1£©ÔÚgit bash ÃüÁîÐÐÖÐÊ¹ÓÃssh-keygenÃüÁî»òÕßssh-keygen -t rsa -C "emailname@xx.com"ÃüÁîÉú³É±¾»úµÄÃÜÔ¿
-    2£©Èç¹ûÉÏÃæµÄ·½·¨±¨´í£¬¿ÉÒÔ¸ÄÒ»¸ö·½Ê½£¬ÔÚgit bash guiÖÐÉú³ÉÃÜÔ¿
-    3£©Éú³ÉµÄÃÜÔ¿±£´æÔÚ¼ÒÄ¿Â¼µÄ.sshÎÄ¼þ¼ÐÏÂ
+1ã€ç”Ÿæˆsshå…¬ç§é’¥
+    1ï¼‰åœ¨git bash å‘½ä»¤è¡Œä¸­ä½¿ç”¨ssh-keygenå‘½ä»¤æˆ–è€…ssh-keygen -t rsa -C "emailname@xx.com"å‘½ä»¤ç”Ÿæˆæœ¬æœºçš„å¯†é’¥
+    2ï¼‰å¦‚æžœä¸Šé¢çš„æ–¹æ³•æŠ¥é”™ï¼Œå¯ä»¥æ”¹ä¸€ä¸ªæ–¹å¼ï¼Œåœ¨git bash guiä¸­ç”Ÿæˆå¯†é’¥
+    3ï¼‰ç”Ÿæˆçš„å¯†é’¥ä¿å­˜åœ¨å®¶ç›®å½•çš„.sshæ–‡ä»¶å¤¹ä¸‹
 
-2¡¢ÔÚgithubÕË»§ÖÐÌí¼Ó¹«Ô¿
-    1£©ÍøÒ³ÓÒÉÏ½ÇÍ·Ïñ´¦ÏÂÀ­²Ëµ¥ÖÐµã»÷Settings
-    2£©×ó²à²Ëµ¥ÖÐÑ¡ÔñSSH and GPG keys
-    3£©¸´ÖÆ±¾»úÉú³ÉµÄ¹«Ô¿ÄÚÈÝ£¬Õ³Ìùµ½ÕË»§£¬±£´æ
+2ã€åœ¨githubè´¦æˆ·ä¸­æ·»åŠ å…¬é’¥
+    1ï¼‰ç½‘é¡µå³ä¸Šè§’å¤´åƒå¤„ä¸‹æ‹‰èœå•ä¸­ç‚¹å‡»Settings
+    2ï¼‰å·¦ä¾§èœå•ä¸­é€‰æ‹©SSH and GPG keys
+    3ï¼‰å¤åˆ¶æœ¬æœºç”Ÿæˆçš„å…¬é’¥å†…å®¹ï¼Œç²˜è´´åˆ°è´¦æˆ·ï¼Œä¿å­˜
 
-3¡¢½«Git²Ö¿âºÍGithub²Ö¿â¹ØÁªÆðÀ´
-    1£©É¾³ýÔ­À´µÄ±¾µØ²Ö¿â£¨Èç¹ûÓÐµÄ»°£©£¬´ÓÔ¶¶Ë²Ö¿â¿ËÂ¡£¬git clone Á´½ÓµØÖ·£¬
-    ÆäÖÐ£¬Á´½ÓµØÖ·ÐÎÊ½Îªgit@github.com:XXXXXXXX£¬ÔÚgithubÕË»§ÖÐ¿ÉÒÔÑ¡ÔñsshÐÎÊ½»òÕßhttpsÐÎÊ½µÄÁ´½Ó
+3ã€å°†Gitä»“åº“å’ŒGithubä»“åº“å…³è”èµ·æ¥
+    1ï¼‰åˆ é™¤åŽŸæ¥çš„æœ¬åœ°ä»“åº“ï¼ˆå¦‚æžœæœ‰çš„è¯ï¼‰ï¼Œä»Žè¿œç«¯ä»“åº“å…‹éš†ï¼Œgit clone é“¾æŽ¥åœ°å€ï¼Œ
+    å…¶ä¸­ï¼Œé“¾æŽ¥åœ°å€å½¢å¼ä¸ºgit@github.com:XXXXXXXXï¼Œåœ¨githubè´¦æˆ·ä¸­å¯ä»¥é€‰æ‹©sshå½¢å¼æˆ–è€…httpså½¢å¼çš„é“¾æŽ¥
 
-4¡¢pushÎÄ¼þµ½Ô¶¶Ë²Ö¿â
-    1£©ssh¹ØÁªºÃÒÔºó£¬µÚÒ»´ÎÊ¹ÓÃpushÃüÁî¿ÉÄÜ»á±¨´í£¬
-    ssh: Could not resolve hostname github.com: nodename nor servname provided, or not known£¬
-    ÓÐ¿ÉÄÜÊÇÒòÎª¹ØÁªºóµÚÒ»´ÎÊ¹ÓÃ£¬ÐèÒªÑéÖ¤Ò»ÏÂ¡£¾ßÌåÑéÖ¤ÃüÁîÏÖÔÚÔÝÊ±ÍüÁË¡£¡£¡£
+4ã€pushæ–‡ä»¶åˆ°è¿œç«¯ä»“åº“
+    1ï¼‰sshå…³è”å¥½ä»¥åŽï¼Œç¬¬ä¸€æ¬¡ä½¿ç”¨pushå‘½ä»¤å¯èƒ½ä¼šæŠ¥é”™ï¼Œ
+    ssh: Could not resolve hostname github.com: nodename nor servname provided, or not knownï¼Œ
+    æœ‰å¯èƒ½æ˜¯å› ä¸ºå…³è”åŽç¬¬ä¸€æ¬¡ä½¿ç”¨ï¼Œéœ€è¦éªŒè¯ä¸€ä¸‹ã€‚ssh -T git@gtihub.com
